@@ -12,6 +12,7 @@ const Message = ({ message }) => {
         src={message.avatar}
         alt="user avatar"
       />
+      {/* this is what gets render from our message prop inside our chatBox that being messagers name and text */}
       <div className="chat-bubble__right">
         <p className="user-name">{message.name}</p>
         <p className="user-message">{message.text}</p>

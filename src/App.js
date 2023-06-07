@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* we can see the navbar and the welcome screenpage if there is no user, otherwise show the chatbox screenpage  */}
       <NavBar />
       {!user ? (
         <Welcome />
